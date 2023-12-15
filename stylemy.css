@@ -1,0 +1,45 @@
+.con1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-item {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-box{
+    height: 500px;
+    width: 500px;
+    background-color:#B3C7D6FF ;
+    align-self: center;
+    padding: 20px;
+    
+}
+
+.item3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.con3{
+    text-align: center;
+    background-color:black ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#A7C2CC, #FFBE88, #827081);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-weight: bold;
+}
